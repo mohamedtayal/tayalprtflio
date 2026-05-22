@@ -77,19 +77,48 @@ const certificates: Certificate[] = [
     credentialId: "9323087",
     description: "Sorting algorithms, Computational thinking, Data structures fundamentals."
   },
-  { title: "EYouth Business", subtitle: "Business Administration Certificate", issuer: "EYouth", file: "certificate-eyouth-business.pdf" },
-  { title: "EYouth Business 2", subtitle: "Business Administration - Level 2", issuer: "EYouth", file: "certificate-eyouth-business-2.pdf" },
-  { title: "EYouth Business 3", subtitle: "Business Administration - Level 3", issuer: "EYouth", file: "certificate-eyouth-business-3.pdf" },
-  { title: "EYouth Business 4", subtitle: "Business Administration - Level 4", issuer: "EYouth", file: "certificate-eyouth-business-4.pdf" },
-  { title: "EYouth Business 22", subtitle: "Advanced Business Administration Certificate", issuer: "EYouth", file: "certificate-eyouth-business-22.pdf" },
-  { title: "EYouth Business 33", subtitle: "Advanced Business Administration Certificate", issuer: "EYouth", file: "certificate-eyouth-business-33.pdf" },
-  { title: "EYouth Business 44", subtitle: "Advanced Business Administration Certificate", issuer: "EYouth", file: "certificate-eyouth-business-44.pdf" },
-  { title: "EYouth Business Landscape", subtitle: "Business Certificate", issuer: "EYouth", file: "certificate-eyouth-business-landscape.pdf" },
-  { title: "EYouth Business Landscape 1", subtitle: "Business Certificate", issuer: "EYouth", file: "certificate-eyouth-business-landscape-1.pdf" },
-  { title: "Training Course Certificate", subtitle: "Course Completion Certificate - Arabic", issuer: "Educational Platform", file: "course-certificate-ar.pdf" },
-  { title: "Training Course Certificate 2", subtitle: "Course Completion Certificate - Arabic", issuer: "Educational Platform", file: "course-certificate-ar-1.pdf" },
-  { title: "Course Certificate", subtitle: "Course Completion Certificate - English", issuer: "Educational Platform", file: "course-certificate-en.pdf" },
-  { title: "Course Certificate 2", subtitle: "Course Completion Certificate - English", issuer: "Educational Platform", file: "course-certificate-en-1.pdf" },
+  { 
+    title: "EYouth Business", 
+    subtitle: "Business Administration Certificate", 
+    issuer: "EYouth", 
+    file: "certificate-eyouth-business.pdf" 
+  },
+  { 
+    title: "EYouth Business Level 2", 
+    subtitle: "Business Administration - Level 2", 
+    issuer: "EYouth", 
+    file: "certificate-eyouth-business-2.pdf" 
+  },
+  { 
+    title: "EYouth Business Level 3", 
+    subtitle: "Business Administration - Level 3", 
+    issuer: "EYouth", 
+    file: "certificate-eyouth-business-3.pdf" 
+  },
+  { 
+    title: "EYouth Business Level 4", 
+    subtitle: "Business Administration - Level 4", 
+    issuer: "EYouth", 
+    file: "certificate-eyouth-business-4.pdf" 
+  },
+  { 
+    title: "EYouth Business Landscape", 
+    subtitle: "Business Certificate", 
+    issuer: "EYouth", 
+    file: "certificate-eyouth-business-landscape.pdf" 
+  },
+  { 
+    title: "Course Certificate (English)", 
+    subtitle: "Course Completion Certificate - English", 
+    issuer: "Educational Platform", 
+    file: "course-certificate-en.pdf" 
+  },
+  { 
+    title: "Training Course Certificate (Arabic)", 
+    subtitle: "Course Completion Certificate - Arabic", 
+    issuer: "Educational Platform", 
+    file: "course-certificate-ar.pdf" 
+  }
 ];
 
 const getAssetUrl = (filename: string) => {
